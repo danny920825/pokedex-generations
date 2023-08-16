@@ -35,7 +35,7 @@ function GenerationList () {
 
   return (
     <div className='w-full flex flex-col gap-4 items-center'>
-      <div className='border-2 w-96 h-10 rounded-md flex items-center gap-2 pl-3'>
+      <div className='border-2 w-4/5 md:w-96 h-10 rounded-md flex items-center gap-2 pl-3'>
         <FaSistrix className='text-gray-400' />
         <input value={search} onChange={handleSearch} className='w-full h-full outline-none' type='text' placeholder='pikachu' />
       </div>
